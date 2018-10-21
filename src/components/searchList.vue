@@ -36,7 +36,7 @@
                      <div>{{flight.twoway.origin}} > {{ flight.twoway.dest}}</div>
                     <div>Departs : {{flight.twoway.departs}} </div>
                     <div>Arrives : {{flight.twoway.arrives}} </div>
-                    <div>Pesangers  </div>
+                    <div>Passengers : {{getPassengers}} </div>
                 </div>
             </div>
            </div>
@@ -51,6 +51,7 @@
                     <div>{{flight.origin}} > {{ flight.dest}}</div>
                     <div>Departs : {{flight.departs}} </div>
                     <div>Arrives : {{flight.arrives}} </div>
+                    <div v-if="isSubmitted">Passengers : {{getPassengers}} </div>
                 </div>
                 <div class="item booking">
                    <div >
