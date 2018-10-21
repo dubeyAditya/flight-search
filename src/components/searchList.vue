@@ -29,7 +29,8 @@
                     <div class="flightName">{{flight.oneway.name}}</div>
                     <div>{{flight.oneway.origin}} > {{ flight.oneway.dest}}</div>
                     <div>Departs : {{flight.oneway.departs}} </div>
-                    <div>Arrives : {{flight.oneway.arrives}} </div>                
+                    <div>Arrives : {{flight.oneway.arrives}} </div>
+                     <div>Passengers : {{getPassengers}} </div>               
                 </div>
                  <div class="item">
                     <div class="flightName">{{flight.twoway.name}}</div>
