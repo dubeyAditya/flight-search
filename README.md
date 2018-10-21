@@ -1,4 +1,4 @@
-# vue-demo
+# Flight Search Vue
 
 ## Project setup
 ```
