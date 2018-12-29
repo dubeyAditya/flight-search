@@ -1,0 +1,32 @@
+{
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "none",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+        "configFile": "F:/Codes/Assignment/vue-flight-search/.eslintrc.json"
+    },
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "auto"
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
+    "emmet.includeLanguages": {
+        "vue-html": "html", "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true
+}
