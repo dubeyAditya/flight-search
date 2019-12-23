@@ -3,7 +3,7 @@
 		<div class="mainHeader "><span>Flight Search Engine</span></div>
 		<div class="contentContainer">
 			<Sidebar />
-			<!-- <SearchList /> -->
+			<SearchList />
 		</div>
 	</div>
 </template>

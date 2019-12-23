@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import filterByJourney from './utils/utility.js';
-import flightJson from './utils/flight.js';
+import filterByJourney from '../utils/utility.js';
+import flightJson from '../utils/flight.js';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
