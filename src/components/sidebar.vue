@@ -1,6 +1,6 @@
 <template>
 	<div class="sideContainer">
-		<Tab />
+		<!-- <Tab /> -->
 		<Slider />
 	</div>
 </template>
